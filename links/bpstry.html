@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bread & Pastry Production NC II</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../img/images.png">
+</head>
+<!-- BODY -->
+<body>
+
+    <nav class="b-nav">
+        <ul class="links-container-b">
+<li class="return-btn"><a href="../index.html">Return to main page</a></li>
+
+
+         </ul>
+      </nav>
+  
+
+      
+
+    <section class="bp-sec">
+
+    
+    <div class="bp-container">
+    <div class="bpstry-headers">
+        <h1 class="bp-title">Bread & Pastry Production NC II</h1>
+        <h4 class="bp-title2">Description</h4>
+        <p class="bp-description">This course equips students with the fundamental techniques in bread and pastry making, including dough preparation, shaping, baking, and finishing. Students learn to produce a wide range of breads, pastries, and desserts, such as bread rolls, cakes, cookies, pies, and specialty breads. Topics covered may include ingredient selection, mixing methods, fermentation, baking principles, decorating techniques, and sanitation practices. 
+        </p>
+        <h4 class="bp-title2">Duration</h4>
+        <p class="bp-description">250 hours</p>
+
+        
+    </div>
+        <!-- GRID -->
+        <div class="bp-grid">
+<div class="grid-container">
+   
+   <img class="grid-img" src="../courses/bp1.jpg" alt="">    
+   <img class="grid-img" src="../courses/bp2.jpg" alt="">    
+   <img class="grid-img" src="../courses/bp3.jpg" alt="">    
+   <img class="grid-img" src="../courses/bp4.jpg" alt="">    
+   <img class="grid-img" src="../courses/bp5.jpg" alt="">    
+   <img class="grid-img" src="../courses/bp6.jpg" alt="">    
+      
+   <div class="popup-image">
+    <span>&times;</span>
+    <img src="../courses/bp1.jpg" alt="">
+  </div>
+  
+</div>
+        </div>
+   
+</div>
+
+</section>
+
+<script>
+    document.querySelectorAll('.grid-container img').forEach(image =>{
+  image.onclick = () => {
+   document.querySelector('.popup-image').style.display = 'block';
+   document.querySelector('.popup-image img').src = image.getAttribute('src');
+  }
+   });
+
+   document.querySelector('.popup-image span').onclick = () => {
+       document.querySelector('.popup-image').style.display = 'none';
+   }
+
+</script>
+    
+</body>
+</html>
