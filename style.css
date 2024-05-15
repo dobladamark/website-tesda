@@ -299,6 +299,7 @@ font-weight: 700;
     border-radius: 15px;
     margin-bottom: 20px;
     
+    
 }
 
 .event-box:hover {
@@ -362,12 +363,15 @@ div.event-box:nth-child(4){
     border: #001b55 solid 3px;
     font-weight: 800;
     color: #001b55;
+    text-decoration: none;
    
 }
 .events-view-all:hover {
     color: #fff;
     background-color: #001b55;
 }
+
+
 
 .event-btn {
     display: flex;
@@ -395,6 +399,7 @@ hr {
     margin-bottom: 5px;
     font-family: var(--secondaryfont);
     width: auto;
+    cursor: pointer;
 }
 
 .announcement-box:hover {
@@ -816,12 +821,13 @@ border-radius: 5px;
 
 
 .aboutesda {
-    color: var(--Desire);
-    font-family: var(--alegreya);
+    color: var(--mcolor3);
+    font-family: var(--secondaryfont);
     font-weight: 500;
     position: relative;
     display: flex;
     font-size: 35px;
+    margin-bottom: 15px;
 }
 
 .aboutesda:before {
@@ -1188,7 +1194,8 @@ footer {
 }
 
 .grid-img:hover {
- filter: brightness(50%);
+    transform: scale(1.01);
+ filter: brightness(120%);
 }
 
 .grid-container {
@@ -1617,7 +1624,7 @@ align-items: center;  }
     }
 
     .logotesda {
-        width: 300px;
+        width: 500px;
     }
 
     .tesda-details {
@@ -1707,8 +1714,12 @@ align-items: center;  }
     .tesda-details {
         font-size: 30px;
     }
+    
+    
  
 }
+
+
 
 @media (max-width:475px) {
 
